@@ -12,4 +12,7 @@
 !pizza_request_dataset/
 
 # Don't ignore the requirements file
-!requirements.txt 
+!requirements.txt
+
+# Don't ignore the main python scripts
+!part_*.py 
