@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# Don't ignore the .gitignore file itself
+!.gitignore
+
+# Don't ignore the outputs directory and its contents
+!outputs/
+
+# Keep these directories, even if empty, for staging .gitkeep
+!resources/
+!pizza_request_dataset/
+
+# Don't ignore the requirements file
+!requirements.txt 
